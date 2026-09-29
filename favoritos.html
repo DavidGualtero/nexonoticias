@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' 
+  fill='%23a99145'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' text-anchor='middle' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Mis Favoritos · NexoNoticias</title>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="header"></header>
+  <main id="contenido">
+    <section class="cabecera-pagina">
+      <div class="contenedor cabecera-fila">
+        <div><h1>Mis Favoritos</h1><p class="sub" id="contador" aria-live="polite"></p></div>
+        <button type="button" class="btn btn-borde" id="btn-vaciar" hidden>Vaciar lista</button>
+      </div>
+    </section>
+    <section class="catalogo-fondo">
+      <div class="contenedor"><div class="grid-tarjetas" id="listado"><p>Cargando favoritos…</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer" id="footer"></footer>
+  <noscript><p style="padding:16px;text-align:center">NexoNoticias necesita JavaScript activado para mostrar las noticias.</p></noscript>
+  <script type="module" src="js/pages/favoritos.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' 
+  fill='%23a99145'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' text-anchor='middle' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Administración de noticias · NexoNoticias</title>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="header"></header>
+  <main id="contenido">
+    <section class="cabecera-pagina">
+      <div class="contenedor">
+        <h1>Panel de Administración</h1>
+        <p class="sub">Crea y elimina noticias. Panel demostrativo sin autenticación: los cambios se guardan solo en este navegador.</p>
+      </div>
+    </section>
+    <section class="catalogo-fondo">
+      <div class="contenedor admin-grid">
+        <div class="form-tarjeta">
+          <h2>Crear noticia</h2>
+          <form id="form-noticia" novalidate>
+            <div class="campo">
+              <div class="campo-fila"><label for="titulo">Título</label><span class="campo-estado" id="titulo-estado" aria-live="polite">* Requerido</span></div>
+              <input id="titulo" name="titulo" type="text" maxlength="120" aria-describedby="titulo-estado">
+            </div>
+            <div class="campo">
+              <div class="campo-fila"><label for="categoria">Categoría</label></div>
+              <select id="categoria" name="categoria"></select>
+            </div>
+            <div class="campo">
+              <div class="campo-fila"><label for="imagen">Imagen</label></div>
+              <select id="imagen" name="imagen"></select>
+              <img class="vista-previa" id="vista-previa" alt="Vista previa de la imagen seleccionada">
+            </div>
+            <div class="campo">
+              <div class="campo-fila"><label for="autor">Autor</label></div>
+              <select id="autor" name="autor"></select>
+            </div>
+            <div class="campo">
+              <div class="campo-fila"><label for="resumen">Resumen</label><span class="campo-estado" id="resumen-estado" aria-live="polite">* Requerido</span></div>
+              <textarea id="resumen" name="resumen" rows="3" style="min-height:80px" maxlength="180" aria-describedby="resumen-estado"></textarea>
+            </div>
+            <div class="campo">
+              <div class="campo-fila"><label for="cuerpo">Contenido</label><span class="campo-estado" id="cuerpo-estado" aria-live="polite">* Requerido</span></div>
+              <textarea id="cuerpo" name="contenido" aria-describedby="cuerpo-estado" placeholder="Separa los párrafos con una línea en blanco."></textarea>
+            </div>
+            <button class="btn btn-primario btn-bloque" type="submit">Publicar noticia</button>
+          </form>
+        </div>
+        <div class="form-tarjeta">
+          <div class="admin-barra">
+            <h2 style="margin:0">Noticias publicadas (<span id="total">0</span>)</h2>
+            <button type="button" class="btn btn-borde" id="btn-restablecer">Restablecer datos de ejemplo</button>
+          </div>
+          <div class="tabla-envoltorio">
+            <table class="tabla">
+              <thead><tr><th><span class="visualmente-oculto">Imagen</span></th><th>Título</th><th>Categoría</th><th>Fecha</th><th>Origen</th><th><span 
+                class="visualmente-oculto">Acciones</span></th></tr></thead>
+              <tbody id="cuerpo-tabla"><tr><td colspan="6">Cargando…</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="footer"></footer>
+  <noscript><p style="padding:16px;text-align:center">NexoNoticias necesita JavaScript activado para mostrar las noticias.</p></noscript>
+  <script type="module" src="js/pages/admin.js"></script>
+</body>
+</html>

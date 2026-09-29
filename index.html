@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' 
+  fill='%23a99145'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' text-anchor='middle' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>NexoNoticias · El análisis profundo y el acontecer diario de Colombia</title>
+  <meta name="description" content="Reportajes de investigación, cobertura de última hora y perspectivas de expertos en política, tecnología, deportes y cultura.">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="header"></header>
+  <main id="contenido">
+    <section class="hero">
+      <div class="contenedor">
+        <p class="hero-etiqueta">Edición diaria</p>
+        <h1>El análisis profundo y el acontecer diario de Colombia</h1>
+        <p>Encuentra reportajes de investigación, coberturas de última hora y perspectivas de expertos en política, tecnología, deportes y arte popular. 
+          Periodismo cercano a la gente.</p>
+        <div class="hero-acciones">
+          <a class="btn btn-primario" href="noticias.html">Explorar Noticias <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a class="btn btn-borde" id="btn-ultima-hora" href="noticias.html">Última Hora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-crema" aria-labelledby="t-destacados">
+      <div class="contenedor">
+        <h2 class="titulo-linea" id="t-destacados">Destacados del Día</h2>
+        <div class="grid-tarjetas" id="destacados" aria-live="polite"><p>Cargando noticias…</p></div>
+      </div>
+    </section>
+
+    <section class="cita-bloque" id="acerca">
+      <div class="contenedor">
+        <blockquote>"El buen periodismo no solo reporta sucesos, cuenta la historia de su gente."</blockquote>
+        <cite>— Alejandro Ruiz, Director Editorial General de NexoNoticias</cite>
+        <div class="stats">
+          <div class="stat"><strong data-contador="1.2" data-decimales="1" data-sufijo="M+">1.2M+</strong><span>Lectores Mensuales</span></div>
+          <div class="stat"><strong data-contador="50" data-sufijo="+">50+</strong><span>Reporteros de Campo</span></div>
+          <div class="stat"><strong data-contador="32">32</strong><span>Estados Cubiertos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-crema boletin-bloque" aria-labelledby="t-boletin">
+      <div class="contenedor">
+        <h2 id="t-boletin">Recibe las noticias directo en tu bandeja</h2>
+        <p>Suscríbete a nuestro boletín semanal gratuito. Análisis político, resúmenes culturales y las mejores historias directo a tu correo. Sin spam.</p>
+        <form class="form-suscripcion" id="form-boletin" novalidate>
+          <label class="visualmente-oculto" for="correo-boletin">Correo electrónico</label>
+          <input id="correo-boletin" type="email" placeholder="correo@ejemplo.com" autocomplete="email">
+          <button class="btn btn-oscuro" type="submit">Suscribirse</button>
+        </form>
+        <p class="msg-suscripcion" id="msg-boletin" role="status"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="footer"></footer>
+  <noscript><p style="padding:16px;text-align:center">NexoNoticias necesita JavaScript activado para mostrar las noticias.</p></noscript>
+  <script type="module" src="js/pages/home.js"></script>
+</body>
+</html>

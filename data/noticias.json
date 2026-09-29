@@ -1,0 +1,177 @@
+{
+  "autores": {
+    "mariana-ortega": {
+      "nombre": "Mariana Ortega",
+      "cargo": "Corresponsal Bogotá",
+      "bio": "Especializada en desarrollo urbano, políticas gubernamentales y movimientos sociales en la región central del país."
+    },
+    "andres-velez": {
+      "nombre": "Andrés Vélez",
+      "cargo": "Editor de Tecnología",
+      "bio": "Periodista de innovación y transformación digital. Cubre startups, inteligencia artificial y política de datos."
+    },
+    "camila-restrepo": {
+      "nombre": "Camila Restrepo",
+      "cargo": "Editora de Cultura",
+      "bio": "Cubre artes visuales, festivales y patrimonio. Ha reportado desde bienales y ferias de todo el continente."
+    },
+    "julian-herrera": {
+      "nombre": "Julián Herrera",
+      "cargo": "Reportero de Deportes",
+      "bio": "Cronista deportivo con doce años de trayectoria en atletismo, ciclismo y fútbol profesional."
+    }
+  },
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Reformas Urbanas Avanzan en el Corazón de Bogotá",
+      "categoria": "Política",
+      "fecha": "2025-10-14T10:00:00",
+      "resumen": "El gobierno capitalino anuncia un nuevo plan de peatonalización e inversión en infraestructura para el Centro Histórico.",
+      "contenido": [
+        "El gobierno capitalino presentó este martes el paquete de reformas urbanas que transformará el Centro Histórico durante los próximos tres años, con obras de peatonalización, renovación de andenes y modernización de redes de servicios públicos.",
+        "Según la administración, la inversión inicial superará los 320.000 millones de pesos y se financiará con recursos propios y crédito multilateral. Las obras se ejecutarán por fases para no interrumpir la actividad comercial de la zona.",
+        "Organizaciones de comerciantes y vecinos participaron en las mesas técnicas y pidieron mecanismos de veeduría ciudadana. La Alcaldía se comprometió a publicar informes trimestrales de avance."
+      ],
+      "imagen": "img/urbano-bogota.jpg",
+      "autor": "mariana-ortega",
+      "destacada": true
+    },
+    {
+      "id": 2,
+      "titulo": "Colombia se Convierte en Centro de Innovación Tecnológica",
+      "categoria": "Tecnología",
+      "fecha": "2025-10-13T09:00:00",
+      "resumen": "Nuevas aceleradoras e inversiones extranjeras apuntan a consolidar el talento de ingeniería y desarrollo en el país.",
+      "contenido": [
+        "Una nueva ola de aceleradoras y fondos de capital de riesgo está llegando al país atraída por la calidad del talento en ingeniería de software, ciencia de datos y ciberseguridad.",
+        "Solo en el último año se abrieron cuatro laboratorios tecnológicos de compañías internacionales en Bogotá, Medellín y Cali, que generarán más de 3.000 empleos calificados según cifras del sector.",
+        "Los expertos advierten que el reto será retener ese talento y ampliar la formación técnica en regiones donde todavía hay poca conectividad."
+      ],
+      "imagen": "img/centro-innovacion.jpg",
+      "autor": "andres-velez",
+      "destacada": true
+    },
+    {
+      "id": 3,
+      "titulo": "Festival del Palacio de Bellas Artes Celebra el Arte Popular",
+      "categoria": "Cultura",
+      "fecha": "2025-10-11T18:00:00",
+      "resumen": "Inicia la magna exposición que reúne a artesanos e intérpretes de todas las regiones del país bajo un solo techo.",
+      "contenido": [
+        "Con una gala de danza folclórica inició el festival que durante dos semanas reunirá a más de 400 artesanos, músicos e intérpretes de las distintas regiones del país.",
+        "La programación incluye talleres abiertos, muestras gastronómicas y presentaciones nocturnas. Las entradas a las actividades al aire libre serán gratuitas.",
+        "Los organizadores esperan superar los 150.000 visitantes y destacaron la participación de jóvenes creadores que reinterpretan las tradiciones con nuevos lenguajes."
+      ],
+      "imagen": "img/festival-bellas-artes.jpg",
+      "autor": "camila-restrepo",
+      "destacada": true
+    },
+    {
+      "id": 4,
+      "titulo": "Presupuesto Federal 2025: Prioridades y Reasignaciones",
+      "categoria": "Política",
+      "fecha": "2025-10-12T08:00:00",
+      "resumen": "El Congreso debate el destino de las partidas presupuestales de este año electoral.",
+      "contenido": [
+        "El Congreso inició el debate del presupuesto con discusiones sobre la reasignación de partidas hacia salud, educación e infraestructura regional.",
+        "Las bancadas de oposición cuestionan los recortes en programas sociales, mientras el Gobierno defiende que los ajustes responden a la caída en el recaudo.",
+        "Se espera que la votación final se realice antes de finalizar el mes, tras las mesas de concertación con los gobernadores."
+      ],
+      "imagen": "img/congreso-presupuesto.jpg",
+      "autor": "mariana-ortega",
+      "destacada": false
+    },
+    {
+      "id": 5,
+      "titulo": "La Inteligencia Artificial revoluciona el Campo Colombiano",
+      "categoria": "Tecnología",
+      "fecha": "2025-10-10T07:30:00",
+      "resumen": "Sistemas autónomos de riego y monitoreo de cultivos elevan productividad en las zonas agrícolas del país.",
+      "contenido": [
+        "Drones, sensores de humedad y modelos predictivos están cambiando la manera de cultivar en el país. Los productores reportan aumentos de hasta 25 % en el rendimiento por hectárea.",
+        "Los sistemas autónomos de riego reducen el consumo de agua y alertan sobre plagas antes de que se extiendan, lo que disminuye el uso de agroquímicos.",
+        "El principal obstáculo sigue siendo la conectividad rural: sin señal estable, muchas fincas no pueden aprovechar estas herramientas."
+      ],
+      "imagen": "img/ia-campo.jpg",
+      "autor": "andres-velez",
+      "destacada": false
+    },
+    {
+      "id": 6,
+      "titulo": "Campeonato Nacional de Atletismo inicia en Monterrey",
+      "categoria": "Deportes",
+      "fecha": "2025-10-09T20:00:00",
+      "resumen": "La delegación olímpica nacional busca romper marcas en la pista del Estado regio.",
+      "contenido": [
+        "Más de 800 atletas de 30 estados participan en el campeonato que arrancó anoche bajo las luces del estadio de Monterrey.",
+        "La delegación olímpica llega con varias figuras en busca de marcas mínimas para los próximos Juegos, entre ellas los velocistas y las medallistas de fondo.",
+        "Las finales de 100 y 400 metros se disputarán el sábado, con transmisión abierta en canales públicos."
+      ],
+      "imagen": "img/atletismo.jpg",
+      "autor": "julian-herrera",
+      "destacada": false
+    },
+    {
+      "id": 7,
+      "titulo": "Bienal de Pintura de Oaxaca: Nuevas Voces y Raíces",
+      "categoria": "Cultura",
+      "fecha": "2025-10-08T12:00:00",
+      "resumen": "Una espectacular muestra de arte contemporáneo con fuerte identidad indígena de la Mixteca.",
+      "contenido": [
+        "La Bienal de Pintura reúne 120 obras de artistas emergentes y consagrados que dialogan con la memoria y los oficios de las comunidades de la Mixteca.",
+        "Los curadores destacan el uso de color y de materiales tradicionales en piezas de gran formato que ocupan las principales salas del museo.",
+        "La muestra permanecerá abierta hasta enero y contará con visitas guiadas por los propios artistas."
+      ],
+      "imagen": "img/bienal-pintura.jpg",
+      "autor": "camila-restrepo",
+      "destacada": false
+    },
+    {
+      "id": 8,
+      "titulo": "Infraestructura del Agua: El Plan del Norte para Mitigar Sequías",
+      "categoria": "Política",
+      "fecha": "2025-10-07T15:00:00",
+      "resumen": "Nuevas presas y acueductos buscan asegurar el suministro de agua potable para los próximos 10 años.",
+      "contenido": [
+        "El plan contempla la construcción de dos presas y 180 kilómetros de acueductos para asegurar el suministro de agua potable en las regiones más afectadas por la sequía.",
+        "Ingenieros y ambientalistas discuten el impacto sobre los ecosistemas de las cuencas y piden estudios independientes antes de iniciar las obras.",
+        "El Gobierno prevé que los primeros tramos entren en operación en 24 meses."
+      ],
+      "imagen": "img/infraestructura-agua.jpg",
+      "autor": "mariana-ortega",
+      "destacada": false
+    },
+    {
+      "id": 9,
+      "titulo": "Ciberseguridad en el Sector Público: Retos para la Nueva Década",
+      "categoria": "Tecnología",
+      "fecha": "2025-10-06T11:00:00",
+      "resumen": "Expertos analizan las amenazas latentes y recomiendan blindar bases de datos ciudadanas.",
+      "contenido": [
+        "Los ataques de secuestro de datos contra entidades públicas aumentaron 40 % en el último año, según un balance presentado por especialistas del sector.",
+        "Los expertos recomiendan cifrar las bases de datos ciudadanas, capacitar a los funcionarios y realizar simulacros periódicos de respuesta a incidentes.",
+        "Advierten que la falta de presupuesto para ciberseguridad en municipios pequeños los convierte en el eslabón más débil."
+      ],
+      "imagen": "img/ciberseguridad.jpg",
+      "autor": "andres-velez",
+      "destacada": false
+    },
+    {
+      "id": 10,
+      "titulo": "Peatonalización del Centro Histórico: Rediseñando el Tránsito y Comercio de Bogotá",
+      "categoria": "Política",
+      "fecha": "2025-10-14T07:00:00",
+      "resumen": "Las obras del Plan Parcial del Centro Histórico 2025 contemplan la peatonalización de tres avenidas neurálgicas.",
+      "contenido": [
+        "La Secretaría de Obras y Servicios de Bogotá, Colombia, ha iniciado los trabajos de reestructuración urbana contemplados en el Plan Parcial del Centro Histórico 2025. Este proyecto, que tiene como finalidad recuperar el espacio público para los peatones y mitigar los niveles de polución, contempla la peatonalización total de tres avenidas neurálgicas adicionales.",
+        "De acuerdo con las autoridades capitalinas, los comercios establecidos verán favorecida su afluencia peatonal, superando los resultados obtenidos previamente en la avenida Madero. Además, se reubicarán estratégicamente puntos de carga y descarga en horarios nocturnos para no interferir con las dinámicas habituales de los locatarios.",
+        "\"El plan no es obstaculizar el flujo mercantil sino propiciar que las familias y el turismo nacional se apropien de la calle de forma segura y disfruten del valor arquitectónico colonial\", declaró Alejandro Ruiz, coordinador del patronato local. Los trabajos se proyectan finalizar antes del arranque de las festividades decembrinas."
+      ],
+      "imagen": "img/peatonalizacion-centro.jpg",
+      "autor": "mariana-ortega",
+      "destacada": false,
+      "etiqueta": "Política & Sociedad"
+    }
+  ]
+}

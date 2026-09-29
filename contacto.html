@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' 
+  fill='%23a99145'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' text-anchor='middle' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contacto · NexoNoticias</title>
+  <meta name="description" content="Escribe a la redacción de NexoNoticias: reportes ciudadanos, quejas, sugerencias o propuestas comerciales.">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" id="header"></header>
+  <main id="contenido" class="contacto-fondo">
+    <div class="contenedor contacto-grid">
+      <section class="contacto-info">
+        <h1>Ponte en Contacto</h1>
+        <p>¿Tienes algún reporte ciudadano, queja, sugerencia o propuesta comercial? Escríbenos, nuestro equipo de redacción te responderá lo antes posible.</p>
+        <div class="dato"><span class="dato-icono"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 
+          19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 
+          0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><small>Teléfono de redacción</small><strong>+57 (601) 5123-4567</strong></div></div>
+        <div class="dato"><span class="dato-icono"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
+          <div><small>Correo de prensa</small><strong>redaccion@nexonoticias.com.co</strong></div></div>
+        <div class="dato"><span class="dato-icono"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/>
+          <circle cx="12" cy="10" r="3"/></svg></span>
+          <div><small>Oficinas centrales</small><strong>Carrera 7 #71-21, Chapinero, Bogotá</strong></div></div>
+        <div class="mapa">
+          <span class="mapa-etiqueta">Oficina Reforma 402</span>
+          <svg viewBox="0 0 640 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mapa estilizado de la ubicación de las oficinas">
+            <rect width="640" height="250" fill="#2a2a2a"/>
+            <path d="M0 40h640M0 95h640M0 150h640M0 205h640M60 0v250M150 0v250M250 0v250M360 0v250M470 0v250M570 0v250" stroke="#3b3b3b" stroke-width="2" fill="none"/>
+            <path d="M0 20l200 230M120 0l260 250M300 0l340 200M440 0l200 170" stroke="#333" stroke-width="1" fill="none"/>
+            <path d="M0 175C120 195 170 95 300 112S480 150 640 58" stroke="#ececec" stroke-width="5" fill="none" opacity=".92"/>
+            <circle cx="330" cy="122" r="36" fill="#fff" opacity=".16"/><circle cx="330" cy="122" r="22" fill="#fff"/><circle cx="330" cy="122" r="8" fill="#a99145"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="form-tarjeta" aria-labelledby="t-form">
+        <h2 id="t-form">Formulario de Mensaje</h2>
+        <form id="form-contacto" novalidate>
+          <div class="campo">
+            <div class="campo-fila"><label for="nombre">Nombre Completo</label><span class="campo-estado" id="nombre-estado" aria-live="polite">* Requerido</span></div>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Alejandro Mendoza" aria-describedby="nombre-estado" required>
+          </div>
+          <div class="campo">
+            <div class="campo-fila"><label for="correo">Correo Electrónico</label><span class="campo-estado" id="correo-estado" aria-live="polite">* Requerido</span></div>
+            <input id="correo" name="correo" type="email" autocomplete="email" placeholder="correo@ejemplo.com" aria-describedby="correo-estado" required>
+          </div>
+          <div class="campo">
+            <div class="campo-fila"><label for="asunto">Asunto</label><span class="campo-estado es-opcional">Opcional</span></div>
+            <select id="asunto" name="asunto"><option value="">Selecciona una opción</option></select>
+          </div>
+          <div class="campo">
+            <div class="campo-fila"><label for="mensaje">Mensaje</label><span class="campo-estado" id="mensaje-estado" aria-live="polite">* Requerido</span></div>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." aria-describedby="mensaje-estado" required></textarea>
+          </div>
+          <p class="aviso aviso-exito" id="aviso-validos" role="status" hidden>
+            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m22 4-10 10-3-3"/></svg>
+            Tus datos de contacto están validados correctamente. Listo para enviar.</p>
+          <button class="btn btn-primario btn-bloque" type="submit">Enviar Mensaje</button>
+        </form>
+        <div class="confirmacion" id="confirmacion" tabindex="-1" role="status" hidden>
+          <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m22 4-10 10-3-3"/></svg>
+          <h3>¡Mensaje enviado!</h3>
+          <p>Gracias, <strong id="confirmacion-nombre"></strong>. Nuestro equipo de redacción te responderá lo antes posible.</p>
+          <button type="button" class="btn btn-borde" id="btn-nuevo" style="margin-top:20px">Enviar otro mensaje</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer" id="footer"></footer>
+  <noscript><p style="padding:16px;text-align:center">NexoNoticias necesita JavaScript activado para mostrar las noticias.</p></noscript>
+  <script type="module" src="js/pages/contacto.js"></script>
+</body>
+</html>
