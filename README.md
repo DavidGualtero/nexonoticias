@@ -44,4 +44,4 @@ Las noticias se leen de `data/noticias.json`. Los cambios del usuario (favoritos
 
 ## Autor
 
-Jua David Gualtero · Docente: John Olarte Ramos
+Juan David Gualtero · Docente: John Olarte Ramos
